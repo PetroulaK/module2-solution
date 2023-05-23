@@ -1,0 +1,156 @@
+ * {
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 0;
+    }
+    
+    body {
+      background-color: #996633;
+    }
+    
+    h1 {
+     text-align: center; 
+     font-family: Helvetica;
+     margin-bottom: 120px;
+     margin-top: 80px;
+    }
+
+    #bg1 {
+      background-color:  #a2836e;
+      width: 600px;
+      height: 250px;
+      border: 3px solid black;
+      background-position: right;
+      font-size: 18px;
+      font-family: Helvetica;
+      text-align: right; 
+      padding: 50px 20px 20px 20px;
+      display: inline-block;
+      
+      
+    }
+    #box1 {
+      background-color: #50394c;
+      border: 3px solid black;
+      margin: 0px;
+      width: 190px;
+      height: 50px;
+      float: right;      
+      position: fixed;  
+      top: 294px;
+      left: 428px;    
+    }
+    #content1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center; 
+        padding: 10px 10px 10px 10px;
+        
+    }
+     #bg2 {
+      background-color:  #a2836e;
+      width: 600px;
+      height: 250px;
+      border: 3px solid black;
+      background-position: right;
+      font-size: 18px;
+      font-family: Helvetica;
+      text-align: right; 
+      padding: 50px 20px 20px 20px;
+      display: inline-block;
+      
+     }
+      
+     #box2 {
+      background-color: #7e4a35;
+      border: 3px solid black;
+      margin: 0px;
+      width: 190px;
+      height: 50px;
+      float: right;      
+      position: fixed;
+      top: 294px;
+      left: 55.2%;    
+    }
+    #content2 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center; 
+        padding: 10px 10px 10px 10px;
+    }
+    #bg3 {
+      background-color:  #a2836e;
+      width: 600px;
+      height: 250px;
+      border: 3px solid black;
+      background-position: right;
+      font-size: 18px;
+      font-family: Helvetica;
+      text-align: right; 
+      padding: 50px 20px 20px 20px;
+      display: inline-block;
+      
+    }
+    #box3 {
+      background-color: #e3e0cc;
+      border: 3px solid black;
+      margin: 0px;
+      width: 200px;
+      height: 50px;
+      float: left;
+      position: fixed;
+      top: 294px;
+      left: 87.1%;       
+    }
+    #content3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center; 
+        padding: 10px 10px 10px 10px;
+    }
+
+  /* Responsive layout - makes one row layout */
+@media (min-width: 992px) {
+  #bg1 {
+    width: 32%;
+    
+  }
+  #bg2 {
+    width: 32%;
+    
+}
+  #bg3 {
+    width: 32%;
+
+  }
+}
+  /* Responsive layout - makes two row layout instead of one row layout */
+@media (min-width: 768px) and (max-width: 991px) {
+  #bg1 {
+    width: 47%;
+    
+  }
+  #bg2 {
+    width: 47%;
+    
+  }
+  #bg3 {
+    width: 100%;
+    
+  }
+}
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 767px) {
+   #bg1 {
+    width: 100%;
+    
+  }
+  #bg2 {
+    width: 100%;
+    
+  }
+  #bg3 {
+    width: 100%;
+    
+  }
+}
